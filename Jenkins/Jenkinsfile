@@ -32,13 +32,12 @@ pipeline{
                         // Run SonarQube scanner using npx (no global install)
                         sh '''
                         echo "🔍 Starting SonarQube Analysis..."
-                        npx @sonar/scan \
+                        npx sonar-scanner \
                         -Dsonar.projectKey=NetflixClone \
                         -Dsonar.projectName=NetflixClone \
                         -Dsonar.sources=src \
-                        -Dsonar.language=ts \
                         -Dsonar.exclusions=dist/**,node_modules/**,public/** \
-                        -Dsonar.host.url=$SONAR_HOST_URL \
+                        -Dsonar.host.url=http://localhost:9000 \
                         -Dsonar.login=$SONAR_AUTH_TOKEN
                         '''
                     }
