@@ -14,7 +14,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'master', url: 'https://github.com/abhijitnalawade0101/Netflix-Clone-K8S.git'
+                git branch: 'main', url: 'https://github.com/abhijitnalawade0101/Netflix-Clone-K8S.git'
             }
         }
         stage('Install Dependencies') {
@@ -125,7 +125,7 @@ pipeline{
                                 currentBuild.result == 'FAILURE' ? '#ff0000' : '#daa038'
     
                 slackSend(
-                    channel: '#devops-alerts',
+                    channel: '#all-devops-abhijeet',
                     color: colorCode,
                     message: """
                     *🚀 Jenkins Build Notification*
