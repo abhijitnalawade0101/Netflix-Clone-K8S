@@ -107,12 +107,10 @@ pipeline{
             steps {
                 script {
                     dir('Kubernetes') {
-                        withCredentials([file(credentialsId: 'k8s', variable: 'KUBECONFIG')]) {
                             sh 'kubectl apply -f deployment.yml'
                             sh 'kubectl apply -f service.yml'
                             sh 'kubectl get svc'
                             sh 'kubectl get all'
-                        }
                     }
                 }
             }
