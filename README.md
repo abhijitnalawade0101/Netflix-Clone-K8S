@@ -2,6 +2,8 @@
 
 ![Architecture Diagram](assets/Architecture.png)
 
+![Architecture Diagram](assets/AWS.png)
+
 
 A **complete end-to-end DevSecOps project** showcasing how to automate, secure, and monitor infrastructure and applications using modern tools — from **Terraform to Kubernetes**, **Jenkins to Trivy**, and everything in between.  
 
@@ -50,10 +52,15 @@ This project simulates a real enterprise-grade setup where a **React-based Netfl
     └── gather.tf            # Data sources and dependencies
 
 
+
+```
+
 Images:
-![Architecture Diagram](assets/Architecture.png)
+
 ![AWS](assets/AWS.png)
-![jenkins](assets/jenkins.png)
+
+![jenkins](/home/abhijeet/project/Netflix-Clone-K8S-End-to-End-Project/assets/AWS.png)
+
 ![sonarqube](assets/sonarqube.png)
 ![slack](assets/slack.png)
 ![netflix](assets/netflix1.png)
@@ -61,7 +68,6 @@ Images:
 ![grafana](assets/grafana.png)
 ![grafana](assets/grafana1.png)
 ![grafana](assets/grafana2.png)
-```
 
 
 
