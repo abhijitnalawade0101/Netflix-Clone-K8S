@@ -48,6 +48,19 @@ This project simulates a real enterprise-grade setup where a **React-based Netfl
     ├── variables.tf         # Input variables
     ├── dev.auto.tfvars      # Environment variables
     └── gather.tf            # Data sources and dependencies
+
+
+Images:
+![Architecture Diagram](assets/Architecture.png)
+![AWS](assets/AWS.png)
+![jenkins](assets/jenkins.png)
+![sonarqube](assets/sonarqube.png)
+![slack](assets/slack.png)
+![netflix](assets/netflix1.png)
+![netflix](assets/netflix2.png)
+![grafana](assets/grafana.png)
+![grafana](assets/grafana1.png)
+![grafana](assets/grafana2.png)
 ```
 
 
