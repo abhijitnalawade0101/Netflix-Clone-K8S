@@ -2,7 +2,6 @@
 
 ![Architecture Diagram](assets/Architecture.png)
 
-![Architecture Diagram](assets/AWS.png)
 
 
 A **complete end-to-end DevSecOps project** showcasing how to automate, secure, and monitor infrastructure and applications using modern tools — from **Terraform to Kubernetes**, **Jenkins to Trivy**, and everything in between.  
@@ -59,7 +58,7 @@ Images:
 
 ![AWS](assets/AWS.png)
 
-![jenkins](/home/abhijeet/project/Netflix-Clone-K8S-End-to-End-Project/assets/AWS.png)
+![jenkins](assets/jenkins.png)
 
 ![sonarqube](assets/sonarqube.png)
 ![slack](assets/slack.png)
